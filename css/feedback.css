@@ -1,0 +1,75 @@
+table td{
+    border: brown;
+    size: 100px;
+    position: right;
+}
+h3{
+    color: #fff;
+    right: 300px;
+    font-size: 30px;
+}
+.rel{
+    padding: 7px 110px 0px 98px;
+  background-repeat: no-repeat;
+background-size: 1900px 150px;
+border-radius: 3px 3px;
+position: relative;
+top: 10px;
+left: 157px;
+z-index: 2px;
+}
+p{
+    font-size: 20px;
+    color: #fff;
+}
+.input{
+     width: 300px;
+     margin-bottom: 40px;
+     border: none;
+     border-bottom: 1px solid #fff;
+     background: transparent;
+     outline: none;
+     height: 40px;
+     color: white;
+     font-size: 16px;
+     left: 20px;
+   
+}
+.input[type="text"]:hover{
+            cursor: pointer;
+ border-color: blue;
+ color: #000; 
+}
+.input[type="email"]:hover{
+            cursor: pointer;
+ border-color: yellow;
+ color: #000; 
+}
+textarea:hover{
+            cursor: pointer;
+            background: green;
+ border-color: green;
+ color: #000; 
+}
+.submit{
+     position: relative;
+  left:100px; 
+  top: 20;
+  bottom: 6px;
+  display: block;
+  width: 30%;
+  height: 44px;
+  margin-bottom: 15px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #294779;
+  text-align: center;
+  text-shadow: 0 1px rgba(255, 255, 255, 0.3);
+  background: #adcbfa;
+  background-clip: padding-box;
+  border: 1px solid #284473;
+  border-bottom-color: #223b66;
+  border-radius: 3px;
+  cursor: pointer;
+  box-shadow: inset 0 1px rgba(255, 255, 255, 0.5), inset 0 0 7px rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.15);
+}

@@ -1,0 +1,121 @@
+.adlog {
+  
+  width: 940px;
+  height: 624px;
+  position: absolute;
+  left: 205px;
+  top: -4px;
+  background-repeat: no-repeat;
+  border-radius: 3px;
+}
+.ban
+{
+  width: 930px;
+  height: 97px;
+  position: relative;
+  top: 5px;
+  left: 4px;
+  border-radius: 4px;
+}
+input{
+  font-family: inherit;
+  font-size: 15px;
+}
+.login {
+  position: relative;
+  left: 271px;
+  top: 70px;
+  padding: 20px 0px;
+  width: 380px;
+  height: 240px;
+  z-index: 1px;
+  background: brown;
+  background-clip: padding-box;
+  border: 1px solid #172b4e;
+  border-bottom-color: gold;
+  border-radius: 5px;
+  box-shadow: inset 0 1px rgba(255, 255, 255, 0.3), inset 0 0 1px 1px rgba(255, 255, 255, 0.1), 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+.login > h1 {
+  margin-bottom: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  text-shadow: 0 -1px rgba(0, 0, 0, 0.4);
+}
+
+.login-input {
+  position: relative;
+  left: 60px;
+  display: block;
+  width: 70%;
+  height: 37px;
+  margin-bottom: 20px;
+  padding: 0 9px;
+  color: white;
+  text-shadow: 0 1px black;
+  background: #2b3e5d;
+  border: 1px solid #15243b;
+  border-top-color: #0d1827;
+  border-radius: 3px;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.2);
+}
+.login-input:focus {
+  outline: 0;
+  background-color: #32486d;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3), 0 0 4px 1px rgba(255, 255, 255, 0.6);
+}
+.login-submit {
+  position: relative;
+  left:126px; 
+  bottom: 6px;
+  display: block;
+  width: 30%;
+  height: 44px;
+  margin-bottom: 15px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #294779;
+  text-align: center;
+  text-shadow: 0 1px rgba(255, 255, 255, 0.3);
+  background: #adcbfa;
+  background-clip: padding-box;
+  border: 1px solid #284473;
+  border-bottom-color: #223b66;
+  border-radius: 3px;
+  cursor: pointer;
+  box-shadow: inset 0 1px rgba(255, 255, 255, 0.5), inset 0 0 7px rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.15);
+}
+.botto
+{
+border-radius: 3px;
+position: absolute;
+bottom: 3px;
+left: 3px;
+background-color: grey;
+background-size: 1900px 150px;
+padding: 6px 78px 6px 255px;
+}
+.req
+{
+  padding: 7px 110px 0px 98px;
+  background-repeat: no-repeat;
+background-size: 1900px 150px;
+border-radius: 3px 3px;
+position: relative;
+top: 70px;
+left: 157px;
+z-index: 2px;
+}
+.errormsg
+{
+  padding: 8px 210px 8px 261px;
+    
+  background-repeat: no-repeat;
+background-size: 1900px auto;
+border-radius: 3px;
+position: absolute;
+top: 178px;
+left: 3px;
+}

@@ -1,0 +1,75 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<?php
+// Connect to database server
+   $servername = "localhost";
+$username = "root";
+$password = "";
+
+// Create connection
+$conn = mysql_connect($servername, $username, $password) or die(mysql_error());
+// select db
+mysql_select_db("log",$conn) or die(mysql_error());
+
+if (!$conn)
+{
+    die ('can not connect:'. mysql_error ());
+}
+if (isset($_POST['update'])){
+$id=$_POST['id'];
+$Firstname =$_POST['username'];
+$Lastname =$_POST['password'];
+
+ $sql = "UPDATE loginuser SET username='$username',password='$password' WHERE id='$id'";  
+   
+if(mysql_query($conn,$sql)){
+}else{
+echo"not updated";
+}
+}
+mysql_close($conn);
+?>
+
+	   <form action = "updateuser.php" method = "post" >
+                <table width = "400" border =" 0" cellspacing = "1" 
+                       cellpadding = "2">
+
+                    <tr>
+                        <td width = "100">Id</td>
+                        <td><input name = "id" type = "text" 
+                                   id = "id"></td>
+                    </tr>
+
+                    <tr>
+                        <td width = "100">username</td>
+                        <td><input name = "username" type = "text" 
+                                   id = "username"></td>
+                    </tr>
+                    <tr>
+                        <td width = "100">password</td>
+                        <td><input name = "password" type = "text" 
+                                   id = "password"></td>
+                    </tr>
+                                        <tr>
+                        <td width = "100"> </td>
+                        <td> </td>
+                    </tr>
+
+                    <tr>
+                        <td width = "100"> </td>
+                        <td>
+                            <input name = "update" type = "submit" 
+                                   id = "update" value = "Update">
+                        </td>
+                    </tr>
+
+                </table>
+            </form>
+       
+
+    </body>
+</html>
+

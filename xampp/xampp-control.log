@@ -1,0 +1,66 @@
+7:57:07 PM  [main] 	Initializing Control Panel
+7:57:07 PM  [main] 	Windows Version:  Pro  64-bit
+7:57:07 PM  [main] 	XAMPP Version: 5.6.30
+7:57:07 PM  [main] 	Control Panel Version: 3.2.2  [ Compiled: Nov 12th 2015 ]
+7:57:07 PM  [main] 	You are not running with administrator rights! This will work for
+7:57:07 PM  [main] 	most application stuff but whenever you do something with services
+7:57:07 PM  [main] 	there will be a security dialogue or things will break! So think 
+7:57:07 PM  [main] 	about running this application with administrator rights!
+7:57:07 PM  [main] 	XAMPP Installation Directory: "c:\xampp\"
+7:57:07 PM  [main] 	Checking for prerequisites
+7:57:13 PM  [main] 	All prerequisites found
+7:57:13 PM  [main] 	Initializing Modules
+7:57:13 PM  [main] 	Starting Check-Timer
+7:57:13 PM  [main] 	Control Panel Ready
+9:39:53 PM  [main] 	Deinitializing Modules
+9:39:53 PM  [main] 	Deinitializing Control Panel
+
+12:29:31 PM  [main] 	Initializing Control Panel
+12:29:31 PM  [main] 	Windows Version:  Pro  64-bit
+12:29:31 PM  [main] 	XAMPP Version: 5.6.30
+12:29:31 PM  [main] 	Control Panel Version: 3.2.2  [ Compiled: Nov 12th 2015 ]
+12:29:31 PM  [main] 	You are not running with administrator rights! This will work for
+12:29:31 PM  [main] 	most application stuff but whenever you do something with services
+12:29:31 PM  [main] 	there will be a security dialogue or things will break! So think 
+12:29:31 PM  [main] 	about running this application with administrator rights!
+12:29:31 PM  [main] 	XAMPP Installation Directory: "c:\xampp\"
+12:29:31 PM  [main] 	Checking for prerequisites
+12:29:31 PM  [main] 	All prerequisites found
+12:29:31 PM  [main] 	Initializing Modules
+12:29:31 PM  [Apache] 	XAMPP Apache is already running on port 80
+12:29:31 PM  [Apache] 	XAMPP Apache is already running on port 443
+12:29:31 PM  [mysql] 	XAMPP MySQL is already running on port 3306
+12:29:31 PM  [main] 	Enabling autostart for module "Apache"
+12:29:31 PM  [main] 	Enabling autostart for module "MySQL"
+12:29:31 PM  [main] 	Starting Check-Timer
+12:29:31 PM  [main] 	Control Panel Ready
+12:29:31 PM  [Apache] 	Autostart aborted: Apache is already running
+12:29:31 PM  [mysql] 	Autostart aborted: MySQL is already running
+3:11:13 PM  [main] 	Deinitializing Modules
+3:11:13 PM  [main] 	Deinitializing Control Panel
+
+12:15:37 PM  [main] 	Initializing Control Panel
+12:15:37 PM  [main] 	Windows Version:  Pro  64-bit
+12:15:37 PM  [main] 	XAMPP Version: 5.6.30
+12:15:37 PM  [main] 	Control Panel Version: 3.2.2  [ Compiled: Nov 12th 2015 ]
+12:15:37 PM  [main] 	You are not running with administrator rights! This will work for
+12:15:37 PM  [main] 	most application stuff but whenever you do something with services
+12:15:37 PM  [main] 	there will be a security dialogue or things will break! So think 
+12:15:37 PM  [main] 	about running this application with administrator rights!
+12:15:37 PM  [main] 	XAMPP Installation Directory: "c:\xampp\"
+12:15:37 PM  [main] 	Checking for prerequisites
+12:15:42 PM  [main] 	All prerequisites found
+12:15:42 PM  [main] 	Initializing Modules
+12:15:42 PM  [main] 	Enabling autostart for module "Apache"
+12:15:42 PM  [main] 	Enabling autostart for module "MySQL"
+12:15:42 PM  [main] 	Starting Check-Timer
+12:15:42 PM  [main] 	Control Panel Ready
+12:15:43 PM  [Apache] 	Autostart active: starting...
+12:15:43 PM  [Apache] 	Attempting to start Apache app...
+12:15:43 PM  [mysql] 	Autostart active: starting...
+12:15:43 PM  [mysql] 	Attempting to start MySQL app...
+12:15:43 PM  [Apache] 	Status change detected: running
+12:15:43 PM  [mysql] 	Status change detected: running
+3:11:13 PM  [main] 	Deinitializing Modules
+3:11:13 PM  [main] 	Deinitializing Control Panel
+
